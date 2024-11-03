@@ -3,6 +3,8 @@ import pillow_avif  # 確保 avif 支援被加載
 import io
 import os
 
+os.system('cls')
+
 def resize_and_convert_image(input_path, target_width=360, max_size_kb=300):
     # 確認輸入的檔案存在
     if not os.path.isfile(input_path):
