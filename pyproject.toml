@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "20241103"
+version = "0.1.0"
+description = ""
+authors = ["Tom Liu <'tomliu6116@hotmail.com'>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pillow = "^11.0.0"
+pillow-avif-plugin = "^1.4.6"
+opencv-python = "^4.10.0.84"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
